@@ -1,4 +1,14 @@
+/*
 // alert("Ola mundo-externo!")
+
+//Declaração indefinida
+let nome3;
+console.log(nome3)
+
+//Declaração vazia
+let disciplina =null;
+console.log(disciplina)
+
 
 //Declarando as variaveis
 
@@ -12,14 +22,6 @@ const nome2="javascript";
 console.log(nome2)
 
 //Outras declarações
-
-//Declaração indefinida
-let nome3;
-console.log(nome3)
-
-//Declaração vazia
-let disciplina =null;
-console.log(disciplina)
 
 //Tipos de variaveis
 
@@ -46,3 +48,26 @@ console.log(aluno)
 //Array - conjunto de informações
 let tecnologias =["JAVA", "C#", "HTML", "CSS"];
 console.log(tecnologias)
+*/
+//Conversões
+
+//Converta de float para inteiro
+
+let numeroFloat =123.456;
+console.log(parseInt(numeroFloat));
+
+//converta de string para float
+
+let numeroString ="654.321"
+console.log(parseFloat(numeroString));
+
+//Converta de número inteiro para string
+
+let numeroInteiro = 789
+console.log(numeroInteiro.toString());
+
+let AlunoAula = true
+
+//Ver o tipo da variável
+let verTipo = typeof AlunoAula
+console.log(verTipo);
